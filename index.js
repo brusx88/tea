@@ -13,17 +13,6 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
-document.querySelector('button').addEventListener('click', function(e) {
-	e.currentTarget.classList.toggle('on');
-	if (hambMenu.classList.contains('hamburger__menu--active')) {
-		hambMenu.classList.remove('hamburger__menu--active')
-	} else {
-		hambMenu.classList.add('hamburger__menu--active')
-	}
-});
-
-
-
 // switch tea content
 var HIDDEN_CLASS_NAME = 'hidden'
 var TARGET_CLASS_NAME = 'target'
